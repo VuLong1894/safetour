@@ -1,0 +1,24 @@
+@use "../abstracts";
+.btn {
+  height: 48px;
+
+  display: inline-block;
+  width: 131px;
+  line-height: 48px;
+  flex-shrink: 0;
+
+  text-align: center;
+  font-size: 1.4rem;
+  font-weight: 500;
+  letter-spacing: -0.14px;
+}
+
+.primary-btn {
+  border-radius: 8px;
+  background: var(--primary-color);
+  color: #fff;
+}
+
+.cta-btn {
+  background: var(--cta-btn-color);
+}
