@@ -1,0 +1,23 @@
+.reservation {
+  &__wrap {
+    width: 749px;
+    display: flex;
+    align-items: center;
+    padding: 40px 25px;
+  }
+}
+.reservation__group {
+  &-title {
+    margin-bottom: 16px;
+    color: #0a192d;
+    font-family: Inter;
+    font-size: 1.6rem;
+    font-weight: 600;
+    line-height: 100%;
+  }
+  & > input[select] {
+    color: #697280;
+    font-family: Inter;
+    font-size: 1.4rem;
+  }
+}
