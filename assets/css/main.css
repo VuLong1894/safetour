@@ -1770,4 +1770,59 @@ strong {
   margin-top: 16px;
 }
 
+.reason {
+  margin-top: 2px;
+  padding: 70px 0;
+}
+.reason__wrap {
+  padding: 0 51px;
+}
+.reason__media {
+  border-radius: 64px;
+}
+.reason__img {
+  display: block;
+  width: 436px;
+  object-fit: cover;
+}
+.reason__heading {
+  margin-top: 19px;
+}
+.reason__desc {
+  width: 493px;
+  margin-top: 16px;
+  margin-bottom: 20px;
+}
+
+.reason__group {
+  display: flex;
+  align-items: center;
+  margin-top: 40px;
+}
+.reason__group-icon-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 54px;
+  height: 54px;
+  border-radius: 12px;
+  flex-shrink: 0;
+}
+.reason__group-content {
+  margin-left: 30px;
+  width: 319px;
+}
+.reason__group-title {
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 162.5%;
+}
+.reason__group-desc {
+  margin-top: 8px;
+  color: rgba(103, 106, 108, 0.9);
+  font-family: Inter;
+  font-size: 1.4rem;
+  line-height: 142.857%;
+}
+
 /*# sourceMappingURL=main.css.map */
